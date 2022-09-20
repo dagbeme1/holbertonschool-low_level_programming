@@ -14,7 +14,7 @@ void print_alphabet_x10(void)
 
 	int tencount;
 	/* for loop */
-	for (tencount = 0; tencount <= 10; tencount++)
+	for (tencount = 1; tencount <= 10; tencount++)
 	{
 	for (bet = 'a'; bet <= 'z'; bet++)
 	{
