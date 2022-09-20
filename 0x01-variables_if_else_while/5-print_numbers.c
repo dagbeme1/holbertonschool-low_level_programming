@@ -18,7 +18,7 @@ int main(void)
 	/* for loop to print out base 10 */
 	for (base10 = 0; base10 < 10; base10++)
 	{
-	printf("%d ", base10);
+	printf("%d", base10);
 	}
 	printf("\n");
 
