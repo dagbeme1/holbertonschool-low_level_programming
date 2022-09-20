@@ -17,8 +17,10 @@ void print_alphabet_x10(void)
 	for (tencount = 0; tencount <= 10; tencount++)
 	{
 	for (bet = 'a'; bet <= 'z'; bet++)
+	{
 	_putchar(bet);
 	}
 	_putchar('\n');
+	}
 
 }
