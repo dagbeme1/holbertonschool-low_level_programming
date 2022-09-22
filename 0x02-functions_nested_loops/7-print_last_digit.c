@@ -14,6 +14,6 @@ int print_last_digit(int n)
 	/*if statement literally commanding lastdigits */
 	if (lastdigits < 0)
 	lastdigits = n * -1;
-	printf("lastdigits" + 0);
+	_putchar(lastdigits + 0);
 	return (lastdigits);
 }
