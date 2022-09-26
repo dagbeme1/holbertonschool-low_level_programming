@@ -2,8 +2,8 @@
 #include "main.h"
 
 /**
- * _isdigit - a function that checks for uppercase character
- * @c: input
+ * mul - a function that checks for uppercase character
+ * @a, @b: input
  * Return: 1 if c is uppercase, 0 otherwise
  */
 
