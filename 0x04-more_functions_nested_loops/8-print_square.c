@@ -2,7 +2,7 @@
 
 /**
  * print_square - check the code
- *@n: integer
+ *@size: integer
  * _putchar Always newline.
  */
 
