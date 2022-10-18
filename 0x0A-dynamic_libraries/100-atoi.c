@@ -1,15 +1,15 @@
-#include <stdio.h>
-#include <string.h>
 #include "main.h"
 
-
 /**
- * _atoi - convert string to int
- * @s: string to convert
- * Return: integer
+ * _atoi - conv string to int
+ * @s: input string
+ *
+ * Return: int converted from string
  */
 
 int _atoi(char *s)
 {
-	return (0);
+
+return (0);
+
 }
