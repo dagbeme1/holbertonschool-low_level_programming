@@ -10,7 +10,7 @@
  */
 size_t print_list(const list_t *h)
 {
-	size_t count;
+	size_t linkedNodes;
 
 	if (h == NULL)
 		return (0);
@@ -20,5 +20,5 @@ size_t print_list(const list_t *h)
 	if (h->next != NULL)
 	count += print_list(h->next);
 
-	return (count);
+	return (linkedNodes);
 }
