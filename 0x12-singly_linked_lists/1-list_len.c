@@ -17,8 +17,8 @@ if (h == NULL)
 return (0);
 linkedNodes = 0;
 linkedNodes++;
-printf("[%d] %s\n", h->len, h->str);
+
 if (h->next != NULL)
-linkedNodes += print_list(h->next);
+linkedNodes += list_len(h->next);
 return (linkedNodes);
 }
