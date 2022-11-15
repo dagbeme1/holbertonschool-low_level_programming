@@ -5,15 +5,14 @@
  * @h: pointer to head of list
  * Return: number of elements
  */
+
 size_t dlistint_len(const dlistint_t *h)
 {
-	size_t nodes = 0;
+	int x;
 
-	while (h)
+	for (x = 0; h != NULL; x++)
 	{
 		h = h->next;
-		nodes += 1;
 	}
-
-	return (nodes);
+	return (x);
 }
