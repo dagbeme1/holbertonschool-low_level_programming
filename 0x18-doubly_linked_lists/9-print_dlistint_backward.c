@@ -1,3 +1,6 @@
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
 #include "lists.h"
 
 /**
@@ -9,6 +12,7 @@
 
 size_t print_dlistint_backward(const dlistint_t *h)
 {
+
 size_t nodes;
 if (h == NULL)
 return (0);
