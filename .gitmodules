@@ -1,3 +1,6 @@
 [submodule "search_algorithms/vcpkg"]
 	path = search_algorithms/vcpkg
 	url = https://github.com/dagbeme1/holbertonschool-low_level_programming.git
+[submodule "search_algorithms/search_algorithms/Betty"]
+	path = search_algorithms/search_algorithms/Betty
+	url = https://github.com/dagbeme1/holbertonschool-low_level_programming.git
