@@ -10,7 +10,7 @@
  */
 int binary_search(int *array, size_t size, int value)
 {
-	int i = 0, start = 0, end = (int)size - 1, mid = 0;  /* Variables for counting */
+	int i = 0, start = 0, end = (int)size - 1, mid = 0;  /* Variables counting */
 
 	if (!array)
 		return (-1);  /* Return -1 if array is NULL */
