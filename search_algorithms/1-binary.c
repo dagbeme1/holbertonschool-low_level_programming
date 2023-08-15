@@ -11,15 +11,11 @@
 
 int binary_search(int *array, size_t size, int value)
 {
-	int i = 0, start = 0, end = (int)size - 1, mid = 0;  /* Declare integer
-	                                                        variables for
-	                                                        counting, start,
-	                                                        end, and mid */
+	int i = 0, start = 0, end = (int)size - 1, mid = 0;  /* for counting */
 
 	if (!array)
 		return (-1);  /* Return -1 if array is NULL */
-	while (end >= start)  /* Run the binary search loop while end is greater
-	                         than or equal to start */
+	while (end >= start)  /* loop while end is > or = to start */
 	{
 		printf("Searching in array: ");  /* Print a message indicating
 		                                    searching in array */
