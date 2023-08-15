@@ -26,7 +26,7 @@ int binary_search(int *array, size_t size, int value);
 int interpolation_search(int *array, size_t size, int value);
 
 /* Helper function prototypes */
-void print_array(int *array, size_t size);  /* Print an array */
-void print_result(int index, int value);    /* Print search result */
+void print_array(int *array, size_t size);
+void print_result(int index, int value);
 
 #endif /* SEARCH_ALGOS_H */
