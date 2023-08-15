@@ -8,7 +8,7 @@
 #include <stdint.h>   /* Integer types */
 #include <math.h>     /* Mathematical functions */
 
-#include <unistd.h>   /* POSIX API functions - for system calls and POSIX environment */
+#include <unistd.h>   /* POSIX API functions - for system calls */
 #include <string.h>   /* String manipulation functions */
 #include <stdarg.h>   /* Variable argument functions */
 #include <sys/wait.h> /* Functions for managing child processes and waiting */
